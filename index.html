@@ -539,124 +539,16 @@ button.sm{padding:5px 11px;font-size:12px;border-radius:7px}
 
 <!-- GUIDE D'UTILISATION -->
 <div id="page-guide" class="page">
-  <div class="page-header"><div class="page-title">📖 Guide d'utilisation</div><div class="page-sub">Mode d'emploi — Journée des Fiertés 2026-2027</div><button class="print-btn" onclick="printGuide()">🖨️ Imprimer</button></div>
+  <div class="page-header"><div class="page-title">📖 Guide d'utilisation</div><div class="page-sub">Vidéo explicative — Journée des Fiertés 2026-2027</div></div>
 
-  <div class="card" style="max-width:900px">
-
-    <p style="font-size:13px;color:var(--ink-2);font-style:italic;margin-bottom:18px">Guide à destination des enseignants et de la direction.</p>
-
-    <div class="section-divider">1. Accéder à l'outil</div>
-    <p>L'outil est accessible en ligne, sans installation, via <b>Smartschool → Liens journée des fiertés</b>.</p>
-    <p>Il fonctionne dans n'importe quel navigateur (Chrome, Edge, Safari…), sur ordinateur, tablette ou smartphone. Aucun compte personnel n'est nécessaire : la connexion à la base de données se fait automatiquement à l'ouverture de la page.</p>
-    <div class="note-box">💡 Si le bandeau en haut affiche « ✅ Connecté », c'est que tout fonctionne normalement. Si un message d'erreur apparaît, contactez le professeur responsable de l'outil.</div>
-
-    <div class="section-divider">2. Vue d'ensemble de l'interface</div>
-    <p>La barre de menu à gauche donne accès à toutes les rubriques de l'outil, organisées en plusieurs blocs :</p>
-    <p><b>Vues</b></p>
-    <ul><li>Tableau de bord — vue synthétique de l'avancement de toutes les classes.</li></ul>
-    <p><b>Données</b></p>
-    <ul>
-      <li>Projets — liste complète de toutes les tâches, toutes classes confondues, avec filtres et recherche.</li>
-      <li>Classes — la fiche détaillée de chaque classe : tâches, objectifs pédagogiques, auto-positionnement.</li>
-      <li>Conformité — vue destinée à la direction : état des exigences pédagogiques par classe.</li>
-    </ul>
-    <p><b>Config</b></p>
-    <ul>
-      <li>Paramètres — dates clés de l'année (date de la Journée des Fiertés, dates de plénières…).</li>
-      <li>Listes — gestion des responsables et des thèmes de projet par classe.</li>
-      <li>Archives — tâches terminées archivées d'années précédentes.</li>
-    </ul>
-    <p>En bas de la barre latérale, le bouton vert « 💾 Sauvegarder » télécharge une copie complète de toutes les données du jour, au format JSON, sur votre ordinateur. C'est une sauvegarde de secours — à faire ponctuellement, pas à chaque utilisation.</p>
-
-    <div class="section-divider">3. Travailler sur sa classe — onglet « Classes »</div>
-    <p>C'est l'écran principal pour un binôme de professeurs référents d'une classe.</p>
-    <ol>
-      <li>Dans le menu de gauche, cliquez sur « Classes ».</li>
-      <li>Dans la liste déroulante en haut, sélectionnez votre classe.</li>
-      <li>Le thème du projet de la classe s'affiche dans le bandeau « 🎯 Thème du projet ». S'il est vide, cliquez dedans et tapez le thème choisi — il ne doit être encodé qu'une seule fois par classe et vaut ensuite pour toutes les tâches de cette classe.</li>
-    </ol>
-    <div class="note-box">💡 Le champ thème propose une saisie libre : vous pouvez reprendre un thème déjà utilisé par une autre classe (suggestion automatique) ou en taper un nouveau.</div>
-    <p>La fiche de classe comporte trois sous-onglets :</p>
-
-    <p style="margin-top:14px"><b>3.1 Tâches</b></p>
-    <p>Cet onglet liste toutes les tâches du projet de la classe, avec leur discipline, leur responsable, leurs dates, leur état d'avancement et leur statut.</p>
-    <ul>
-      <li>Pour ajouter une tâche : cliquez sur « ➕ Ajouter une tâche » en haut de l'écran.</li>
-      <li>Pour modifier une tâche existante : cliquez sur l'icône ✏️ à droite de la ligne concernée.</li>
-      <li>Pour supprimer une tâche : cliquez sur l'icône 🗑, une confirmation vous sera demandée.</li>
-    </ul>
-    <p>En haut de l'onglet, un bloc « 📊 Indicateurs de la classe » résume en un coup d'œil le nombre de tâches, celles terminées, l'avancement global, les retards et les tâches critiques.</p>
-
-    <p style="margin-top:14px"><b>3.2 Objectifs pédagogiques</b></p>
-    <p>Cet onglet est divisé en deux colonnes — une par professeur référent — et un bloc de données communes en bas.</p>
-    <ul>
-      <li>Chaque colonne « Prof » permet d'indiquer le responsable, les disciplines associées, l'objectif général du projet, les savoirs et savoir-faire visés, ainsi que le détail de deux évaluations (forme, date, résultats, remédiation).</li>
-      <li>Le bloc commun regroupe la validation du carnet de l'élève, la dimension éthique du projet (D3), et le processus créatif (justification de la forme du produit final).</li>
-    </ul>
-    <ol>
-      <li>Remplissez les champs souhaités.</li>
-      <li>Cliquez sur « 💾 Enregistrer — Prof 1 », « 💾 Enregistrer — Prof 2 » ou « 💾 Données communes » selon la section modifiée.</li>
-    </ol>
-    <div class="note-box">💡 Chaque section a son propre bouton d'enregistrement : sauvegarder la colonne Prof 1 n'enregistre pas les modifications faites dans la colonne Prof 2, et inversement. Pensez à enregistrer chaque bloc modifié séparément.</div>
-    <div class="note-box">💡 Pour effacer une information déjà enregistrée (par exemple un résultat d'évaluation), videz simplement le champ puis cliquez sur Enregistrer : la suppression est bien prise en compte.</div>
-
-    <p style="margin-top:14px"><b>3.3 Auto-positionnement</b></p>
-    <p>Cet onglet permet à la classe de s'auto-évaluer sur 13 dimensions du projet (préparation, processus créatif, implication des élèves, etc.), avant l'échéance fixée (plénière de janvier).</p>
-    <ul>
-      <li>Pour chaque dimension, cliquez sur « ✅ Oui », « ⚠️ Part. » (partiellement) ou « ❌ Non ».</li>
-      <li>Un deuxième clic sur le même bouton annule la sélection.</li>
-      <li>La colonne « Ajustements envisagés » permet de noter, pour chaque dimension, une piste d'amélioration pour la suite du projet.</li>
-    </ul>
-    <ol>
-      <li>Renseignez les dimensions souhaitées.</li>
-      <li>Cliquez sur « 💾 Enregistrer l'auto-positionnement » en bas de la page.</li>
-    </ol>
-    <div class="note-box">💡 Tant que vous n'avez pas cliqué sur Enregistrer, vos réponses restent affichées même si vous naviguez ailleurs puis revenez — mais elles ne seront visibles par les autres qu'une fois enregistrées. Si vous changez de classe sans avoir enregistré, l'outil vous avertira avant d'effacer vos modifications en cours.</div>
-
-    <div class="section-divider">4. Vue d'ensemble — Tableau de bord</div>
-    <p>Accessible depuis « Tableau de bord » dans le menu, cette page donne une vue globale de l'avancement de toutes les classes : indicateurs clés, graphique de progression, tableau détaillé par classe, et alertes sur les tâches en retard.</p>
-    <p>Un bouton « 🖨️ Imprimer synthèse » en haut de la page permet de générer un rapport imprimable de cette vue d'ensemble.</p>
-
-    <div class="section-divider">5. Vue direction — Conformité pédagogique</div>
-    <p>Cette page, accessible depuis « Conformité » dans le menu, donne à la direction une vue synthétique de l'état des exigences pédagogiques pour chaque classe : objectifs encodés, évaluations, carnet, dimension éthique, et auto-positionnement.</p>
-    <p><b>Lecture des indicateurs en haut de page</b></p>
-    <ul>
-      <li><b>OBJ. 2 PROFS ENCODÉS</b> — nombre de classes où les deux professeurs référents ont rempli leur objectif général.</li>
-      <li><b>AU MOINS 1 PROF</b> — nombre de classes où au moins un professeur a encodé ses objectifs.</li>
-      <li><b>AUTO-POS. COMPLÉTÉS</b> — nombre de classes ayant renseigné les 13 dimensions de l'auto-positionnement.</li>
-      <li><b>CONFORMITÉ COMPLÈTE</b> — nombre de classes réunissant tous les critères (objectifs, carnet, évaluation, auto-positionnement).</li>
-    </ul>
-    <p><b>Lecture des badges dans le tableau</b></p>
-    <table style="margin:8px 0 16px"><thead><tr><th>Badge</th><th>Signification</th></tr></thead><tbody>
-      <tr><td style="text-align:center">✅</td><td>Critère complet / atteint</td></tr>
-      <tr><td style="text-align:center">⚠️</td><td>Partiellement rempli — un chiffre indique la proportion (ex. 8/13)</td></tr>
-      <tr><td style="text-align:center;font-size:11px">✓ Rempli (0✅ 0⚠️ 13❌)</td><td>Auto-positionnement entièrement rempli, mais les réponses sont majoritairement « Non » ou « Partiellement » — la classe a bien fait l'exercice, mais le résultat reste à travailler</td></tr>
-      <tr><td style="text-align:center">❌</td><td>Critère manquant ou non renseigné</td></tr>
-      <tr><td style="text-align:center">🧭 D3</td><td>La dimension éthique du projet a été renseignée</td></tr>
-    </tbody></table>
-    <div class="note-box">💡 Un ✅ vert sur l'auto-positionnement signifie que la classe a répondu « Oui » à toutes les dimensions. Une grille entièrement remplie mais avec des « Non » affiche un badge neutre bleu plutôt qu'un vert trompeur — la direction voit ainsi immédiatement si le travail est fait ET s'il est positif.</div>
-    <p>Deux boutons d'action par ligne (🎯 Objectifs et 🪞 Auto-pos.) permettent d'ouvrir directement la fiche de la classe concernée pour vérifier ou compléter les informations manquantes.</p>
-    <p>Un bouton « 🖨️ Imprimer conformité » en haut de la page génère un rapport imprimable de cette vue, utile pour une réunion d'équipe ou un point avec la direction.</p>
-
-    <div class="section-divider">6. Autres rubriques</div>
-    <p><b>Projets</b></p>
-    <p>Vue tabulaire de toutes les tâches de toutes les classes, avec filtres par classe, discipline, état ou priorité, et une barre de recherche. Utile pour une vue transversale rapide.</p>
-    <p><b>Paramètres</b></p>
-    <p>Réservé à la personne qui administre l'outil : année scolaire en cours, date de la Journée des Fiertés, dates des plénières de septembre et janvier. Ces dates alimentent le compte à rebours affiché dans la barre latérale et les échéances du tableau de bord.</p>
-    <p><b>Listes</b></p>
-    <p>Tableau permettant de définir, pour chaque classe, le ou les responsables et le thème du projet — double-cliquez sur une cellule pour la modifier. C'est la même information que celle affichée dans la fiche classe : modifier l'un met à jour l'autre instantanément.</p>
-    <p><b>Archives</b></p>
-    <p>Regroupe les tâches archivées d'années précédentes, consultables mais non modifiables, pour garder un historique sans encombrer les vues actives.</p>
-
-    <div class="section-divider">7. Bonnes pratiques</div>
-    <ul>
-      <li>Enregistrez chaque section (Prof 1, Prof 2, Données communes, Auto-positionnement) séparément — il n'y a pas de sauvegarde automatique globale.</li>
-      <li>Encodez le thème du projet une seule fois, dès le début, dans la fiche classe ou dans Listes : il se répercute automatiquement sur toutes les tâches.</li>
-      <li>En cas de doute sur une donnée affichée, un rafraîchissement de la page (Ctrl+F5 ou glisser vers le bas sur mobile) permet de vérifier qu'on regarde bien la dernière version enregistrée.</li>
-      <li>Utilisez le bouton « 💾 Sauvegarder » de temps en temps pour garder une copie de secours locale des données.</li>
-    </ul>
-
-    <p style="margin-top:20px;font-size:12px;color:var(--ink-4);font-style:italic">Pour toute question ou difficulté technique, contactez le professeur responsable de l'outil.</p>
+  <div class="card" style="max-width:1100px">
+    <p style="font-size:13px;color:var(--ink-2);margin:0 0 14px">Tour des rubriques de l'outil, puis explication détaillée de l'onglet <b>Classes</b> (tâches, objectifs pédagogiques, auto-positionnement). Durée : 4 min 47.</p>
+    <video id="guide-video" controls preload="metadata" playsinline
+      style="width:100%;aspect-ratio:16/9;display:block;border-radius:10px;background:#0d1124">
+      <source src="Guide_Pilotage_JDF_voix.mp4" type="video/mp4">
+      Votre navigateur ne peut pas lire cette vidéo.
+    </video>
+    <div class="note-box" style="margin-top:14px">💡 Utilisez le bouton plein écran de la vidéo pour mieux voir les détails. Pour toute question, contactez le professeur responsable de l'outil.</div>
   </div>
 </div>
 
@@ -2626,6 +2518,7 @@ async function saveResponsable(classeId, valeur){
 //  NAVIGATION
 // ════════════════════════════════════════════════════════════════
 function goTo(page, skipInit=false){
+  const gv=document.getElementById('guide-video'); if(gv && page!=='guide') gv.pause();
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.querySelectorAll('.nav-item').forEach(n=>n.classList.remove('active'));
   document.getElementById('page-'+page).classList.add('active');
